@@ -42,7 +42,7 @@ while continuer:# tant que l'utilisateur voudra rejouer le jeu
 	if numero_gagnant==numero_saisi:
 		gain=somme_mise*3
 		gain=ceil(gain)
-		print"bravo vous avez gagner: ", gain
+		print"bravo vous avez gagner : ", gain
 	elif (numero_saisi%2==numero_gagnant%2):
 		gain=somme_mise/2
 		gain=ceil(gain)
