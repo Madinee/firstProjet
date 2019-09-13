@@ -35,6 +35,7 @@ while continuer:# tant que l'utilisateur voudra rejouer le jeu
 		    continue
 		if somme_mise<=0:
 			print"la somme miseée ne peut etre inferieur ou egal a zero\n"
+			
 		
 	print"******************vous avez miser ", somme_mise,"$ ***********************\n"
 	numero_gagnant=randrange(10)
